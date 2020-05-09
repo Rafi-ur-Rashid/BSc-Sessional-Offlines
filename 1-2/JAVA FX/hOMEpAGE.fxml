@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hOMEpAGEController">
+   <children>
+      <Button fx:id="button" layoutX="287.0" layoutY="215.0" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="82.0" text="Log in" />
+      <Label fx:id="label" layoutX="144.0" layoutY="28.0" minHeight="16" minWidth="69" prefHeight="56.0" prefWidth="149.0" text="      HomePage">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="118.0" prefHeight="42.0" prefWidth="91.0" text="  UserName :" />
+      <TextField fx:id="UserName" layoutX="144.0" layoutY="118.0" prefHeight="42.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>
